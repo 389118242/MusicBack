@@ -1,0 +1,115 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+#body-title {
+    height: 50px;
+}
+
+#body-content {
+    margin-left: 0px;
+    position: absolute;
+    width: 100%;
+    top: 70px;;
+    bottom: 0;
+    padding-bottom: 27px;
+    overflow: auto;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(50, 50, 50, 0.25);
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background-clip: padding-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(50, 50, 50, 0.5);
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgba(50, 50, 50, 0.05);
+}
+
+.navbar-default {
+    background-color: #4cb6cb;
+}
+
+.nav-pills > li {
+    background-color: #232c32;
+    border-radius: 5px;
+}
+
+.nav-pills > li > a {
+    color: #8ca1af;
+}
+
+.nav-pills > li > a:hover {
+    background-color: #2c3942;
+    color: #ffffff;
+}
+
+.nav-pills > li > a:focus {
+    background-color: #2c3942;
+}
+
+.list-group-div > ul > li {
+    background-color: #181f24;
+}
+
+.list-group-div > ul > li:hover {
+    background-color: #2c3942;
+    color: #ffffff;
+}
+
+.list-group-div > ul > li {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border: 1px solid #2c3942;
+}
+
+.list-group-div > ul > li a:hover {
+    color: white;
+}
+
+.list-group-div > ul > li a:focus {
+    color: white;
+}
+
+.list-group-div > ul > li a {
+    color: #8ca1af;
+    display: block;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.breadcrumb {
+    background-color: white;
+}
+
+footer > div > p {
+    text-align: center;
+}
+
+img[name="photo"] {
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+.fixed-bottom {
+    margin-bottom: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
